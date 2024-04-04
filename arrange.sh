@@ -2,7 +2,7 @@
 
 for file in "files"/*
 do
-    first_letter=$(basename "$file" | cut -c 1)
+    first_character=$(basename "$file" | cut -c 1)
     
-    mv "$file" "$first_letter"
+    mv "$file" "$first_character"
 done
